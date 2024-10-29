@@ -14,7 +14,7 @@ VERSION_RE = re.compile(r'''__version__ = ['"]([0-9.]+)['"]''')
 
 
 requires = [
-    'botocore>=1.34.144,<1.35.0',
+    'botocore @ git+https://github.com/jops-wtakase/botocore.git@1.34.144-no-deprecation#egg=botocore',
     'jmespath>=0.7.1,<2.0.0',
     's3transfer>=0.10.0,<0.11.0',
 ]
